@@ -1,0 +1,31 @@
+{% extends 'article_app/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <table class="table table-bordered border-dark">
+                <thead>
+                <tr class="text-center">
+                    <th scope="col">Имя пользователя</th>
+                    <th scope="col">Тема поста</th>
+                    <th scope="col">Текст поста</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {% for object in object_list %}
+                    <tr>
+                        <th class="small fw-normal">{{ object.user_id.name }}</th>
+                        <th class="small fw-normal">{{ object.title }}</th>
+                        <th class="small fw-normal">{{ object.body }}</th>
+                    </tr>
+                {% endfor %}
+
+                </tbody>
+            </table>
+        </div>
+        <div class="col-2"></div>
+    </div>
+{% endblock %}

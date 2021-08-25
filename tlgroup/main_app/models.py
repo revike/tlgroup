@@ -1,4 +1,3 @@
-from django.contrib.auth.models import AbstractUser
 from django.db import models
 from phone_field import PhoneField
 
@@ -10,6 +9,9 @@ class User(models.Model):
     email = models.EmailField(max_length=128)
     phone = PhoneField(blank=True)
     website = models.URLField(max_length=256, blank=True)
+
+    def __str__(self):
+        return f'{self.username}'
 
     @staticmethod
     def add_user(users):
@@ -36,6 +38,9 @@ class UserAddress(models.Model):
     lat = models.FloatField()
     lng = models.FloatField()
 
+    def __str__(self):
+        return f'{self.city}'
+
     @staticmethod
     def add_user_address(users):
         for user in users:
@@ -59,6 +64,9 @@ class UserCompany(models.Model):
     name = models.CharField(max_length=128)
     catch_phrase = models.CharField(max_length=128)
     bs = models.CharField(max_length=128)
+
+    def __str__(self):
+        return f'{self.name}'
 
     @staticmethod
     def add_user_company(users):

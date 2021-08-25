@@ -10,6 +10,9 @@ class Article(models.Model):
     title = models.CharField(max_length=128)
     body = models.TextField()
 
+    def __str__(self):
+        return f'{self.title} -> Author: {self.user_id}'
+
     @staticmethod
     def add_article(articles):
         for article in articles:

@@ -9,6 +9,8 @@
                 <thead>
                 <tr class="text-center">
                     <th scope="col">Имя пользователя</th>
+                    <th scope="col">E-mail</th>
+                    <th scope="col">Адрес</th>
                     <th scope="col">Тема поста</th>
                     <th scope="col">Текст поста</th>
                 </tr>
@@ -18,6 +20,17 @@
                 {% for object in object_list %}
                     <tr>
                         <th class="small fw-normal">{{ object.user_id.name }}</th>
+                        <th class="small fw-normal">{{ object.user_id.email }}</th>
+                        <th class="small fw-normal">
+                            {% for addr in address %}
+                                {% if addr.user == object.user_id %}
+                                    <span>{{ addr.zipcode }}</span><br>
+                                    <span>{{ addr.city }}</span><br>
+                                    <span>{{ addr.street }}</span><br>
+                                    <span>{{ addr.suite }}</span>
+                                {% endif %}
+                            {% endfor %}
+                        </th>
                         <th class="small fw-normal">{{ object.title }}</th>
                         <th class="small fw-normal">{{ object.body }}</th>
                     </tr>

@@ -6,7 +6,7 @@ from main_app.models import User, UserCompany, UserAddress
 
 class ArticleListView(ListView):
     """Таблица постов"""
-    model = Article
+    queryset = Article.objects.all().select_related('user_id')
     template_name = 'article_app/article.html'
 
     def get_context_data(self, **kwargs):
@@ -20,6 +20,7 @@ class ArticleListView(ListView):
             UserAddress.add_user_address(users.json())
         if articles.status_code == 200:
             Article.add_article(articles.json())
-            
+
+        context['address'] = UserAddress.objects.all()
         context['title'] = 'Таблица постов'
         return context

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62d6ca73-b6aa-4b74-8cd8-8b6985d44a99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tlgroup/article_app/static/js/get_users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlgroup/article_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tlgroup/article_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlgroup/article_app/templates/article_app/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/tlgroup/article_app/templates/article_app/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlgroup/article_app/templates/article_app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/tlgroup/article_app/templates/article_app/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlgroup/article_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tlgroup/article_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlgroup/article_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tlgroup/article_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlgroup/main_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tlgroup/main_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlgroup/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tlgroup/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlgroup/tlgroup/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tlgroup/tlgroup/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlgroup/tlgroup/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tlgroup/tlgroup/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tlgroup" />
+  </component>
+  <component name="ProjectId" id="1xETM18nznFy4oQvsweyuN3843Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programs\python\tlgroup\tlgroup\article_app\static" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62d6ca73-b6aa-4b74-8cd8-8b6985d44a99" name="Changes" comment="" />
+      <created>1629919198653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629919198653</updated>
+      <workItem from="1629919201034" duration="14060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
